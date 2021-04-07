@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.header__container {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  padding: 1.5rem 0 1.5rem 3rem;
+  font-family: var(--main-font);
+  display: flex;
+}
+.header__container ::selection {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.header__container ul {
+  list-style: none;
+}
+
+.header-cont_logoSec {
+  flex: 60%;
+}
+
+.header-cont_navSec {
+  flex: 40%;
+  display: flex;
+  align-items: center;
+}
+.header-cont_navSec li:hover {
+  color: var(--tecondary-color);
+}
+
+.header-cont-2_navBar {
+  height: auto;
+  display: flex;
+}
+
+.header-cont-2-1_divider {
+  height: inherit;
+  border-left: 1px solid var(--secondary-color);
+  margin: 0 1rem 0 1rem;
+}
+
+.header-cont-2_navBar-2 {
+  margin: 0 3rem 0 auto;
+}

@@ -1,0 +1,23 @@
+.app {
+  --main-color: #000000;
+  --secondary-color: #ffffff;
+  --tecondary-color: #1ed760;
+  --fecondary-color: #9893da;
+  --fiecondary-color: #ed6b86;
+
+  --main-font: "Poppins", sans-serif;
+  --secondary-font: "Noto Sans JP", sans-serif;
+}
+
+.app ul {
+  padding: 0;
+}
+
+.app li:hover {
+  cursor: pointer;
+}
+
+.app li {
+  display: inline;
+  margin: 0 0.5rem 0 0.5rem;
+}

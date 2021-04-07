@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
+
+.home__container {
+  height: 90vh;
+  background-color: var(--tecondary-color);
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-cont_title {
+  font-family: var(--secondary-font);
+  font-size: 3.5rem;
+  text-align: center;
+}
+.home-cont_title ::selection {
+  background-color: var(--secondary-color);
+  color: var(--tecondary-color);
+}
+
+.home-cont_title h1 {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
+.footer__container {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  font-family: var(--main-font);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.footer-cont_logoSec {
+  flex: 10%;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-cont_navSec {
+  flex: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-cont_navSec ul {
+  margin: 0 3rem 0 3rem;
+  align-self: flex-start;
+}
+
+.footer-cont_navSec li {
+  display: block;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.footer-cont_navSec li:hover {
+  color: var(--tecondary-color);
+}
+
+.footer-cont_socialSec {
+  flex: 30%;
+}
