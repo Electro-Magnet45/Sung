@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.register-cont_div {
+  padding: 3rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.register-cont-1_divider {
+  width: 25%;
+  border-top: 1px solid black;
+  margin: 1rem 0 1rem 0;
+}
+
+.register-cont-1-3_title h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.register-cont-1-1_formCont p {
+  font-weight: 400;
+  margin: 0 0 0.3rem 0;
+}
+
+.register-cont_input {
+  height: 3rem !important;
+  width: 35vw !important;
+  margin: 0 0 1.5rem 0 !important;
+  font-size: 1rem !important;
+}
+
+.register-cont-1-1-1_datePicker {
+  display: flex;
+  flex-direction: row;
+  width: 28rem;
+}
+
+.register-cont-1-1-1-1_select {
+  flex: 1;
+}
+
+.register-cont-1-1-1-1_select input {
+  width: 14rem;
+}
+
+.register-cont-1-1-1-1_dayInput {
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+
+.register-cont-1-1-1-1_yearInput {
+  flex: 1;
+  margin: 0 0 0 1rem;
+}
+
+.register-cont-1-1-1-1_blank {
+  flex: 1;
+}
+
+.register-cont-1-1-1-1-1_input {
+  width: 4rem !important;
+}
+
+.register-cont-1-1_formCont .StyledBox-sc-13pk1d4-0 {
+  display: flex;
+  flex-direction: row;
+  border-color: var(--tecondary-color);
+}
+
+.register-cont-1-1_formCont
+  .StyledRadioButton__StyledRadioButtonContainer-g1f6ld-0 {
+  margin: 2px 1rem 0 0;
+}
+
+.register-cont-1-1_formCont .gRPXcN {
+  fill: var(--tecondary-color);
+}
+
+.register-cont-1-1-1_submitBtn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+
+.register-cont-1-1-1_submitButton {
+  background-color: var(--tecondary-color) !important;
+  border: none !important;
+}
+.register-cont-1-1-1_submitButton:hover {
+  box-shadow: 0px 0px 0px 2px var(--tecondary-color) !important;
+  background-color: white !important;
+  color: var(--tecondary-color);
+}
+
+.register-cont-1_loginSec {
+  margin: 1rem 0 0 0;
+}
+
+.register-cont-1_loginSec span {
+  color: var(--tecondary-color);
+  text-decoration: underline;
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.login__container {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font);
+}
+
+.login__container h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.login-cont_divider {
+  width: 25%;
+  border-top: 1px solid black;
+  margin: 1rem 0 1rem 0;
+}
+
+.divider-2 {
+  margin: 1rem 0 2rem 0;
+}
+
+.login-cont-3-1_formCont p {
+  font-weight: 400;
+  margin: 0 0 0.3rem 0;
+}
+
+.login-cont_input {
+  height: 3rem !important;
+  width: 35vw !important;
+  margin: 0 0 1.5rem 0 !important;
+  font-size: 1rem !important;
+}
+
+.login-cont-3_submitBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.login-cont-3-3_submitButton {
+  background-color: var(--tecondary-color) !important;
+  border: none !important;
+}
+.login-cont-3-3_submitButton:hover {
+  box-shadow: 0px 0px 0px 2px var(--tecondary-color) !important;
+  background-color: white !important;
+  color: var(--tecondary-color);
+}
+
+.login-cont_signUpSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-cont_btn {
+  color: var(--tecondary-color) !important;
+  border: none !important;
+  box-shadow: 0px 0px 0px 2px var(--tecondary-color) !important;
+}
+.login-cont_btn:hover {
+  background-color: var(--tecondary-color);
+  color: white !important;
+}

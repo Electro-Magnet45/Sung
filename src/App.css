@@ -21,3 +21,24 @@
   display: inline;
   margin: 0 0.5rem 0 0.5rem;
 }
+
+.app p {
+  font-size: 0.9rem;
+}
+
+.app input {
+  font-weight: 400;
+}
+
+.app input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.app a {
+  text-decoration: none;
+  color: inherit;
+}

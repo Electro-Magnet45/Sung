@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap");
 
 .home__container {
-  height: 90vh;
+  height: 100vh;
   background-color: var(--tecondary-color);
   color: var(--secondary-color);
+  padding: 0 0 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
