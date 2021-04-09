@@ -7,6 +7,8 @@
 
   --main-font: "Poppins", sans-serif;
   --secondary-font: "Noto Sans JP", sans-serif;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 .app ul {

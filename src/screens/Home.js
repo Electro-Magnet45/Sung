@@ -1,10 +1,17 @@
 import React from "react";
 import "./css/Home.css";
 
+import { Button } from "grommet";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
+import { useHistory } from "react-router-dom";
+
 const Home = () => {
+  //
+  const history = useHistory();
+
   return (
     <div className="home">
       <Header />
@@ -16,6 +23,12 @@ const Home = () => {
             That's the <span>Price</span>
             <br /> we pay <span>to</span> you
           </h2>
+          <Button
+            className="home-cont_button"
+            primary
+            label="Get Started"
+            onClick={() => history.push("/register")}
+          />
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+import ScrollToTop from "./ScrollToTop";
 import Home from "./screens/Home";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="app">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/">
             <Home />
