@@ -3,6 +3,7 @@ import "./css/Login.css";
 
 import { useHistory } from "react-router-dom";
 import { TextInput, Button } from "grommet";
+import { Helmet } from "react-helmet";
 
 const Login = () => {
   //
@@ -10,6 +11,10 @@ const Login = () => {
 
   return (
     <div className="login">
+      <Helmet>
+        <title>Login | Sung</title>
+      </Helmet>
+
       <div className="login__container">
         <div className="login-cont_logoSec">
           <h2>Sung</h2>

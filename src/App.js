@@ -5,6 +5,7 @@ import ScrollToTop from "./ScrollToTop";
 import Home from "./screens/Home";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
+import ErrorPage from "./screens/ErrorPage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -24,6 +25,10 @@ function App() {
 
           <Route path="/register">
             <Register />
+          </Route>
+
+          <Route>
+            <ErrorPage />
           </Route>
         </Switch>
       </Router>

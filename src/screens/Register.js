@@ -3,6 +3,7 @@ import "./css/Register.css";
 
 import { Link } from "react-router-dom";
 import { TextInput, Select, RadioButtonGroup, Button } from "grommet";
+import { Helmet } from "react-helmet";
 
 const Register = () => {
   //
@@ -23,6 +24,10 @@ const Register = () => {
 
   return (
     <div className="register">
+      <Helmet>
+        <title>Sign Up | Sung</title>
+      </Helmet>
+
       <div className="register__container">
         <div className="register-cont_div">
           <div className="register-cont-1_logoSec">
